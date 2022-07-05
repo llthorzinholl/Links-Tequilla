@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tudo{
+  display: flex;
+  flex-direction: column;
+  justify-contents: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+
+.contexto{
+   width: 500px;
+   height:800px;
+   display: flex;
+   flex-direction: column;
+   justify-contents: center;
+   align-items: center;
+   padding: 40px;
+   border-radius: 23px;
+   background: url("./assets/memphis.png");
+
+   
+}
+
+.background{
+  position: fixed; 
+  background-color: #914AD9;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+}
+
+.rosto{
+  position: absolute;
+  left: -80px;
+  width: auto;
+  bottom: -30%;
+  
+}
+
+.logo{
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  bottom: -20px;
+  -webkit-box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17); 
+  box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17);
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F0E370;
+  
+
+}
+.bg-white{
+  width:auto;
+  height:auto;
+  background-color:#7D2DDE;
+  border-radius: 30px;
+}
+
+#refresh{
+  background-color: #7D2DDE;
+  -webkit-box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17); 
+  box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17);
+  
+  
+}
+
+#refresh:hover{
+  background-color: #F0E370;
+}
+
+.close{
+  display:flex;
+}
+
+#openModal{
+  background-color: #AEF2D3;
+  border-radius: 6px;
+  padding: 15px 70px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  
+}
+
+#openModal:hover{
+  background-color: #D771D9;
+  transition: 0.5s;
+}
+
+#refresh{
+  cursor: pointer;
+}
+
+.modal-wrapper{
+  top: 400px;
+  width: auto;
+  height:auto;
+  display: flex;
+  justify-contents: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 23px;
+  color: white;
+  
+ 
+}
+
+.alinhamento {
+  display:flex;
+  position:fixed;
+  width: 400px;
+  height: 400px;
+  justify-contents: center;
+  align-items: center;
+  left: 30%;
+  top: 32%;
+  bottom: 0;
+  
+
+
+}
+
+.invisible{
+  display: none;
+  
+
+  
+
+}
+
+.videoap{
+  position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover;
+  opacity: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-contents: center;
+  align-items: center; 
+}
+
+.videoapp{
+  width:750px
+  
+}
+
+h1{
+  font-family: Montserrat;
+  color: #D989D3;
+  font-size: 40px;
+}
+
+a{
+  color: #AEF2D3;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+h4{
+  color:#AEF2D3;
+  font-family: Montserrat;
+  font-size: 20px;
+
+}
+
+
+ul{
+  text-align: center; /* centraliza na horizontal */
+}
+ul li{
+  display: flex; /* centraliza na horizontal */
+  padding: 5px;
+  flex-direction: column;
+  margin: 0 5px;
+  font-size: 40px;
+}
+ul li a{
+  background-color: #AEF2D3;
+  border-radius: 6px;
+  padding: 10px 70px;
+  color: #fff;
+  
+}
+ul li a:hover{
+  background-color: #D771D9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.titulo{
+  text-align: center;
+}
+
+// texto //
