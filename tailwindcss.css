@@ -20,7 +20,6 @@
    flex-direction: column;
    justify-contents: center;
    align-items: center;
-   padding: 15vh 10vh 5vh;
    border-radius: 23px;
    z-index:-2;
    background: url("./assets/memphis.png");
@@ -52,7 +51,6 @@
   border-radius: 50%;
   width: 25vh;
   height: 25vh;
-  padding: 0vh 0vh 1vh 1vh;
   z-index: -1;
   overflow: hidden;
   position: relative;
