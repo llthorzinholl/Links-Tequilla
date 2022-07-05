@@ -103,7 +103,7 @@
 
 #openModal:hover{
   background-color: #D771D9;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 
 #refresh{
@@ -209,7 +209,7 @@ ul li a{
 }
 ul li a:hover{
   background-color: #D771D9;
-  transition: 0.5s;
+  transition: 0.1s;
   cursor: pointer;
 }
 
