@@ -4,26 +4,26 @@
 @tailwind utilities;
 
 .tudo{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-contents: center;
   align-items: center;
-  padding: 10px;
   
 }
 
 
 .contexto{
-   width: 500px;
-   height:800px;
+   width: 50vh;
+   height:90vh;
    display: flex;
    flex-direction: column;
    justify-contents: center;
    align-items: center;
-   padding: 40px;
+   padding: 15vh 10vh 5vh;
    border-radius: 23px;
+   z-index:-2;
    background: url("./assets/memphis.png");
-
    
 }
 
@@ -39,18 +39,22 @@
 }
 
 .rosto{
+  width: 100%;
   position: absolute;
-  left: -80px;
+  left: -55px;
   width: auto;
-  bottom: -30%;
+  bottom: -20%;
+  
   
 }
 
 .logo{
   background-color: #aaa;
   border-radius: 50%;
-  width: 200px;
-  height: 300px;
+  width: 25vh;
+  height: 25vh;
+  padding: 0vh 0vh 1vh 1vh;
+  z-index: -1;
   overflow: hidden;
   position: relative;
   bottom: -20px;
@@ -186,6 +190,7 @@ h4{
 
 
 ul{
+  padding: 2vh;
   text-align: center; /* centraliza na horizontal */
 }
 ul li{
@@ -212,4 +217,5 @@ ul li a:hover{
   text-align: center;
 }
 
-// texto //
+// Responsivo //
+
