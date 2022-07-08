@@ -3,19 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.tudo{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-contents: center;
-  align-items: center;
-  
-}
 
 
 .contexto{
-   width: 50vh;
-   height:90vh;
    display: flex;
    flex-direction: column;
    justify-contents: center;
@@ -23,7 +13,6 @@
    padding: 15vh 10vh 5vh;
    border-radius: 23px;
    z-index:-2;
-   background: url("./assets/memphis.png");
    
 }
 
@@ -189,25 +178,25 @@ h4{
 }
 
 
-ul{
+.ul{
   padding: 2vh;
   text-align: center; /* centraliza na horizontal */
 }
-ul li{
+.ul .li{
   display: flex; /* centraliza na horizontal */
   padding: 5px;
   flex-direction: column;
   margin: 0 5px;
   font-size: 40px;
 }
-ul li a{
+.ul .li a{
   background-color: #AEF2D3;
   border-radius: 6px;
   padding: 10px 70px;
   color: #fff;
   
 }
-ul li a:hover{
+.ul .li a:hover{
   background-color: #D771D9;
   transition: 0.5s;
   cursor: pointer;
