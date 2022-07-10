@@ -3,10 +3,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 390px){
   .contexto{
   width: 100%;
+
 }
+}
+
+@media only screen and (max-width: 390px){
+  .ul{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 40vh;
+
+  }
+  .ul .li{
+      /* centraliza na horizontal */
+  }
+  .ul .li a{
+    font-size:35px;
+    
+  }
+
 }
 
 
