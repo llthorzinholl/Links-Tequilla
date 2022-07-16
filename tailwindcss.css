@@ -26,7 +26,26 @@
 	min-width: 100%; 
 	min-height: 100%;
 	width: auto; 
-	height: auto; 
+	height: auto;
+   
+}
+
+.background{
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+      -45deg, 
+      rgba(59,173,227,1) 0%, 
+      rgba(87,111,230,1) 25%, 
+      rgba(152,68,183,1) 51%, 
+      rgba(255,53,127,1) 100%
+);  
+   animation: animate 10s ease infinite;
+}
+
+@keyframes animate { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
 .rosto{
@@ -184,7 +203,7 @@ h4{
   padding: 2vh;
   text-align: center; /* centraliza na horizontal */
 }
-.ul .li{
+.ul .li {
   display: flex; /* centraliza na horizontal */
   padding: 5px;
   flex-direction: column;
@@ -202,6 +221,10 @@ h4{
   background-color: #D771D9;
   transition: 0.5s;
   cursor: pointer;
+}
+
+#li1{
+  display: none;
 }
 
 
@@ -233,6 +256,70 @@ h4{
   #openModal{
     font-size: 30px;
   }
+
+  #li1{
+    display: flex;
+  }
+
+  button{
+    display:none;
+  }
+
+
+  .rosto{
+    width: 100%;
+    position: absolute;
+    left: -55px;
+    width: auto;
+    bottom: -20%;
+    
+    
+  }
+
+  .logo{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    left: 3.5vh;
+    padding: 0vh 0vh 1vh 1vh;
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+    bottom: -10px;
+    -webkit-box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17); 
+    box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F0E370;
+    
+  
+  }
+
+  .background{
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+        -45deg, 
+        rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 25%, 
+        rgba(152,68,183,1) 51%, 
+        rgba(255,53,127,1) 100%
+  );  
+     animation: animate 10s ease infinite;
+  }
+
+  @keyframes animate { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+  .videoap{
+    display: none;
+  }
+  
+
+  
 
 
 
