@@ -67,7 +67,7 @@
   z-index: -1;
   overflow: hidden;
   position: relative;
-  bottom: -20px;
+  bottom: -2,4vh;
   -webkit-box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17); 
   box-shadow: -9px 15px 32px 6px rgba(0,0,0,0.17);
   border-style: solid;
